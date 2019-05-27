@@ -1,0 +1,24 @@
+package cl.accenture.prueba.controller;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import cl.accenture.prueba.cl.accenture.prueba.controlador.PersonaController;
+
+class PersonaControllerTest {
+
+	//@Autowired//Esta anotación permite acceder a los metodos publicos de la clase sin necesidad de instanciarlos.
+	
+	
+	@Test
+	public void sumaControllerTest() {
+		PersonaController pController = new PersonaController();
+		Double resultadoEsperado;
+		resultadoEsperado = pController.sumaPersonas(1.0, 2.0); 
+		assertEquals("Resultado Ok",3.0, resultadoEsperado);
+		
+	}
+
+}

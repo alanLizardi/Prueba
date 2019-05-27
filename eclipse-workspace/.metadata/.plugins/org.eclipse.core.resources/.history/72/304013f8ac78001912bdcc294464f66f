@@ -1,0 +1,41 @@
+package cl.accenture.response.rest.responser.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "persona2")
+public class Persona {
+	@Column(name = "nombre")
+	private String nombre;
+	@Column(name = "edad")
+	private int edad;
+	@Column(name = "oficio")
+	private String oficio;
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+	public String getOficio() {
+		return oficio;
+	}
+
+	public void setOficio(String oficio) {
+		this.oficio = oficio;
+	}
+
+}

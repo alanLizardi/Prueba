@@ -1,0 +1,8 @@
+package cl.accenture.prueba.cl.accenture.prueba.persona.dto;
+
+public class PersonaRequestDto {
+
+	private String nombre;
+	private int edad;
+	private String oficio;
+}

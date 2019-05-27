@@ -1,0 +1,25 @@
+package cl.accenture.prueba.cl.accenture.prueba.nivel.dto;
+
+import cl.accenture.prueba.cl.accenture.prueba.modelo.Level;
+
+public class NivelDto {
+
+	private String id;
+	private String level;
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getLevel() {
+		return level;
+	}
+
+	public void setLevel(String level) {
+		this.level = level;
+	}
+}

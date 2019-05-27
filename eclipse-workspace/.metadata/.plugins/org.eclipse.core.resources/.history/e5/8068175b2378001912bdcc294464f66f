@@ -1,0 +1,5 @@
+package cl.accenture.response.rest.responser.model;
+
+public class Persona {
+
+}
