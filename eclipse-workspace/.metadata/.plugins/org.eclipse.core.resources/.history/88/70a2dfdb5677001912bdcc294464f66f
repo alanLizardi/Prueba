@@ -1,0 +1,14 @@
+package cl.accenture.prueba.cl.accenture.prueba.modelo;
+
+public enum Level {
+	NEWASSOCIATE("NEW ASSOCIATE", 1), ASSOCIATE("ASSOCIATE", 2), ASSIST("ASSIST", 3), ANALIST("ANALISTE", 4),
+	MANAGER("MANAGER", 5), SENIORMANAGER("SENIORMANAGER", 6), PARTNER("PARTNER", 7), PRESIDENT("PRESIDENT", 8);
+
+	private String nombre;
+	private int posicion;
+
+	private Level(String nombre, int posicion) {
+		this.nombre = nombre;
+		this.posicion = posicion;
+	}
+}

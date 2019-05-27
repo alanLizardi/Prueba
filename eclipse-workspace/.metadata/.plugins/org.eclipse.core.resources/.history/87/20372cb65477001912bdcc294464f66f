@@ -1,0 +1,67 @@
+package cl.accenture.prueba.cl.accenture.prueba.modelo;
+
+public enum Level {
+	NEWASSOCIATE("NEW ASSOCIATE",1),
+	ASSOCIATE("ASSOCIATE",1), 
+	ASSIST("ASSIST",1),
+	ANALIST("ANALISTE",1), 
+	MANAGER("MANAGER",1), 
+	SENIORMANAGER("SENIORMANAGER",1), 
+	PARTNER("PARTNER",1), 
+	PRESIDENT("PRESIDENT",1);
+	
+	private String nombre;
+	private int posicion;
+	
+	
+	private Level(String nombre, int posicion) {
+		this.nombre = nombre;
+		this.posicion = posicion;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public int getPosicion() {
+		return posicion;
+	}
+
+	public void setPosicion(int posicion) {
+		this.posicion = posicion;
+	}
+
+	
+}
+
+	
+	BARCELONA("FC Barcelona",1,"1900"), REAL_MADRID("Real Madrid",2,"1910"),
+	SEVILLA("Sevilla FC",4,"1920"), VILLAREAL("Villareal",7,"1930"); 
+	
+	private String nombreClub;
+	private int puestoLiga;
+	private String fundacion;
+	
+	private Equipo (String nombreClub, int puestoLiga, String fundacion){
+		this.nombreClub = nombreClub;
+		this.puestoLiga = puestoLiga;
+		this.fundacion = fundacion;
+	}
+
+	public String getNombreClub() {
+		return nombreClub;
+	}
+
+	public int getPuestoLiga() {
+		return puestoLiga;
+	}
+	
+	public String getFundacion(){
+		return fundacion;
+	}
+
+}

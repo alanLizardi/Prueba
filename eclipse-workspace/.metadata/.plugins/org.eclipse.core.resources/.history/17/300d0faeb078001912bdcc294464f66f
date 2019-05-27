@@ -1,0 +1,5 @@
+package cl.accenture.prueba.cl.accenture.prueba.persona.dto;
+
+public class PersonaRequestDto {
+
+}

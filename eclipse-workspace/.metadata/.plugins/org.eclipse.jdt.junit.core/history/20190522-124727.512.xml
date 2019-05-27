@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PersonaControllerTest" project="cl.accenture.prueba" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="cl.accenture.prueba.controller.PersonaControllerTest" time="0.036" displayname="PersonaControllerTest" uniqueid="[engine:junit-jupiter]/[class:cl.accenture.prueba.controller.PersonaControllerTest]">
+    <testcase name="traePersonaTest" classname="cl.accenture.prueba.controller.PersonaControllerTest" time="0.016" displayname="traePersonaTest()" uniqueid="[engine:junit-jupiter]/[class:cl.accenture.prueba.controller.PersonaControllerTest]/[method:traePersonaTest()]"/>
+    <testcase name="sumaControllerTest" classname="cl.accenture.prueba.controller.PersonaControllerTest" time="0.02" displayname="sumaControllerTest()" uniqueid="[engine:junit-jupiter]/[class:cl.accenture.prueba.controller.PersonaControllerTest]/[method:sumaControllerTest()]"/>
+  </testsuite>
+</testrun>
